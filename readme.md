@@ -1,0 +1,1 @@
+This repo cover all instruction about https://x86.fadev.org/Jcc.html

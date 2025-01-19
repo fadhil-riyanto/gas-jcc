@@ -1,0 +1,15 @@
+jump if above (unsigned comparison)
+Jump short if above (CF=0 and ZF=0).
+
+example:
+cmp 10, 10 equal with 
+sub 10, 10
+
+math
+10 - 10 = 0 (ZF = 1, CF = 0)
+
+another example
+10 - 4 = 6 (ZF = 0, CF = 0)
+
+cf example:
+4 - 10 = -6 (ZF = 0, CF = 1)
